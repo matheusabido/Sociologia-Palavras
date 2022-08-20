@@ -55,3 +55,14 @@ body {
         margin: 2rem 0;
     }
 }
+
+@media (max-width: 650px) {
+    .filtro-container {
+        margin: 0 auto;
+    }
+
+    .palavras-container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
