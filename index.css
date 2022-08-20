@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    font-family: 'Arial';
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.letra {
+    border: 1px solid black;
+    text-align: center;
+    padding: .1rem;
+    background-color: rgb(210, 210, 210);
+}
+
+.palavras-container {
+    margin-top: 2rem;
+    width: min(90vw, 900px);
+    text-align: center;
+}
+
+.filtro-container {
+    margin-top: 2rem;
+    width: min(90vw, 900px);
+    text-align: center;
+}
+
+.filtro-container input {
+    margin: .5rem 0;
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px rgb(0, 0, 0, .5);
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    border: 1px solid black;
+}
+
+@media (min-width: 650px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 2rem 0;
+    }
+}
